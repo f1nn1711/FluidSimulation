@@ -33,3 +33,11 @@ public int[] HeatColor(float v,float vmin,float vmax){
    b = round(255*constrain(-4*abs(x-0.25) + 1.5,0,1));
    return new int[] {r, g, b};
 }
+
+public int[][] calculateLinePoints(int[][] point){
+  int[][] points;
+  
+  points[0] = new int[] {1,4};
+  
+  return points;
+}

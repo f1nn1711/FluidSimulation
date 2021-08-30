@@ -11,6 +11,13 @@ boolean sourceOn = true;
 int view = 0;
 int maxView = 2;
 
+int[][] lines = {
+  {10,10},
+  {30,30}
+};
+
+int[][] linePoints;
+
 ArrayList<Source> sources = new ArrayList<Source>();
 
 void settings() {
